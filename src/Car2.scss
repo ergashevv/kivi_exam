@@ -1,0 +1,121 @@
+.img1 {
+    // background-color: turquoise;
+
+    padding: 11px 12px 12px 13px;
+    background: #B6CAFB;
+    border-radius: 20px;
+}
+
+.img2 {
+    // background-color: turquoise;
+    width: 47px;
+    height: 47px;
+    padding: 15px 14px 12px 14px;
+    background: #B4E2E1;
+    border-radius: 20px;
+}
+
+.img3 {
+    padding: 13px 11px 12px 13px;
+    background: #FF9E83;
+    border-radius: 20px;
+}
+
+.img4 {
+    padding: 12px 9px 13px 15px;
+    background: #F7E233;
+    border-radius: 20px;
+}
+
+.img5 {
+    padding: 12px 11px 13px 13px;
+    background: #F6DAC2;
+    border-radius: 20px;
+}
+
+.img6 {
+    padding: 12px 12px 13px 12px;
+    background: #B4E2E1;
+    border-radius: 20px;
+}
+
+.img7 {
+    padding: 11px 13px 14px 11px;
+    background: #B6CAFB;
+    border-radius: 20px;
+}
+
+.img8 {
+    background: #B6CAFB;
+    border-radius: 20px;
+    padding: 16px 12px 10px 13px;
+}
+
+.img9 {
+    padding: 12px 11px 13px 14px;
+    background: #FF9E83;
+    border-radius: 20px;
+}
+
+p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #4A4A4A;
+
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+    }
+
+    ul>* {
+        text-decoration: none;
+        margin: 15px 0 15px 0;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 39px;
+        letter-spacing: -6.7332e-05px;
+        color: #000000;
+
+        &:hover {
+            color: red;
+            transform: translate(1.5);
+        }
+
+        // &::before {
+
+
+        // }
+    }
+
+    ul>*::before {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #B4E2E1;
+        border: 1px solid #4A90E2;
+    }
+}
+
+.close_button {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: red;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
